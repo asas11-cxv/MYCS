@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo">ABDULLAH<span> ALHADLAQ</span></a>
+        <i class='bx bx-menu' id="menu"></i>
+        <nav class="navbar active">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+            <a href="skils.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="project">
+        <h2 class="heading">Project</h2>
+        <div class="p-card wow animate__animated animate__fadeInLeft">
+            <div class="card">
+                <div style="overflow: hidden;"><img src="pro_1 (2).jpg" style="max-width: 100%; border-radius: 10px;transition: 1s;" alt="Loading..."></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque repellat harum impedit similique cumque esse! Pariatur reprehenderit, eos quod totam corrupti ab dicta voluptate consequatur modi perferendis magnam odio?</p>
+            </div>
+            <div class="card">
+                <div style="overflow: hidden;"><img src="pro_1 (2).jpg" style="max-width: 100%; border-radius: 10px; transition: 1s;" alt="Loading..."></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque repellat harum impedit similique cumque esse! Pariatur reprehenderit, eos quod totam corrupti ab dicta voluptate consequatur modi perferendis magnam odio?</p>
+            </div>
+            <div class="card">
+                <div style="overflow: hidden;"><img src="pro_1 (2).jpg" style="max-width: 100%; border-radius: 10px; transition: 1s;" alt="Loading..."></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque repellat harum impedit similique cumque esse! Pariatur reprehenderit, eos quod totam corrupti ab dicta voluptate consequatur modi perferendis magnam odio?</p>
+            </div>
+        </div>
+        <div class="p-card mt wow animate__animated animate__fadeInRightBig">
+            <div class="card">
+                <div><img src="pro_1 (2).jpg" style="max-width: 100%; border-radius: 10px; transition: 1s;" alt="Loading..."></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque repellat harum impedit similique cumque esse! Pariatur reprehenderit, eos quod totam corrupti ab dicta voluptate consequatur modi perferendis magnam odio?</p>
+            </div>
+            <div class="card">
+                <div><img src="pro_1 (2).jpg" style="max-width: 100%; border-radius: 10px; transition: 1s;" alt="Loading..."></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque repellat harum impedit similique cumque esse! Pariatur reprehenderit, eos quod totam corrupti ab dicta voluptate consequatur modi perferendis magnam odio?</p>
+            </div>
+            <div class="card">
+                <div><img src="pro_1 (2).jpg" style="max-width: 100%; border-radius: 10px; transition: 1s;" alt="Loading..."></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates doloremque repellat harum impedit similique cumque esse! Pariatur reprehenderit, eos quod totam corrupti ab dicta voluptate consequatur modi perferendis magnam odio?</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let menu = document.getElementById("menu");
+        let navbar = document.querySelector(".navbar")
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navbar.classList.toggle('active');
+        }
+    </script>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="wow.min.js"></script>
+</body>
+
+</html>
